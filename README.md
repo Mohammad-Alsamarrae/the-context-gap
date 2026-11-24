@@ -26,7 +26,7 @@ The data is not stored in this repository: notebook 1 downloads it from the offi
 
 ## The notebooks
 
-Run them **in order, in the same Google Colab session** (each one uses the files made by the one before):
+Run them **in order** in Google Colab. In Colab every notebook runs on its own machine, so the files one notebook makes must be moved to the next by hand: download them from the folder icon on the left, and upload them in the next notebook. Notebook 3 asks for `clean_data.csv` if it cannot find it.
 
 1. `notebooks/1_Data_Collection.ipynb`: downloads and loads the three datasets, checks that they link together
 2. `notebooks/2_Data_Cleaning.ipynb`: cleans and merges everything into `clean_data.csv`
